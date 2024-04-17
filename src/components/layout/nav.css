@@ -1,0 +1,39 @@
+.container {
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+}
+/* 
+.dynamic-lnk {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.nav-container {
+    color: white;
+
+    width: 1025px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container ul {
+    height: 50px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container ul li {
+    list-style-type: none;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
