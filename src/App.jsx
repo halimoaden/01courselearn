@@ -10,10 +10,12 @@ function App() {
     <div>
         <Navigation />
 
+      <div className="contents">
           <Routes>
             <Route path='/' element={<Home />} ></Route>
             <Route path='/patients' element={<Patient />} ></Route>
           </Routes>
+      </div>
 
     </div>
   )
